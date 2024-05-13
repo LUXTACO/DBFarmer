@@ -28,7 +28,7 @@
   <strong>DBLegends:</strong>
   
   - Make sure your game is in english.
-  - ake sure you are on the main menu.
+  - Make sure you are on the main menu.
   - Make sure the images line up in game.
   
   <strong>Extras:</strong>
