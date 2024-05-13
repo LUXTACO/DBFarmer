@@ -1,7 +1,7 @@
 ----
 
 <p align="center">
-  <img src="./media/dbfarmer.jpg" style="width: 35%; height: auto;">
+  <img src="./media/dbfarmer.png" style="width: 35%; height: auto;">
 </p>
 
 ----
