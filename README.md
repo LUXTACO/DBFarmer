@@ -52,7 +52,7 @@
   <img src="./media/showcase1.png" style="width: 70%; height: auto;">
 </p>
 <p align="center">
-  <img src="./media/showcase2.PNG" style="width: 70%; height: auto;">
+  <img src="./media/showcase2.png" style="width: 70%; height: auto;">
 </p>
 
 -----
