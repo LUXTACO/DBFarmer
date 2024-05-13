@@ -54,6 +54,9 @@
 <p align="center">
   <img src="./media/showcase2.png" style="width: 70%; height: auto;">
 </p>
+<p align="center">
+  <img src="./media/showcase3.png" style="width: 70%; height: auto;">
+</p>
 
 -----
 ### <p align="center">📦 Contribute 📦</p>
