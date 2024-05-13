@@ -112,7 +112,7 @@ class ConfigFuctions:
                 "MissionObject" : 1,
             },
             "discord_controller" : {
-                "enabled" : True,
+                "enabled" : False,
                 "trusted-id" : "Trusted-ID-Here",
                 "token" : "Token-Here-Discord",
             }
