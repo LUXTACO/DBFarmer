@@ -44,6 +44,11 @@ abbreviations = {
     'advanced_anti_stuck' : 'AntiStuck',
     'select_legends' : 'Legends',
     'get_highest_priority_object' : 'Priority',
+    'find_all_objects' : 'FindObjects',
+    'discord_controller' : 'DiscordCtrl',
+    'fix_errors' : 'FixErrors',
+    'auto_update' : 'AutoUpdate',
+
 }
 
 logger = logging.getLogger("DBLegendsFarmer")
