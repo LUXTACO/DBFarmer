@@ -90,7 +90,8 @@ class Overlay:
             bg="#1a1a1a", 
             borderwidth=2,
             height=12, 
-            width=65
+            width=65,
+            wrap=tk.WORD
         )
         self.console_textbox.grid(row=3, column=0, columnspan=500, sticky='w')
         
