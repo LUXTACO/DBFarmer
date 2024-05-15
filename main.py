@@ -36,17 +36,33 @@ except:
 
 setcolors("pastel_purple")
 
-logging.basicConfig( #! %(asctime)s 
-    level=logging.DEBUG,
-    format="%(levelname)s * %(message)s",
-    handlers=[
-        #logging.StreamHandler(),
-        logging.FileHandler(filename=f"{os.getcwd()}\\logs\\{datetime.datetime.strftime(datetime.datetime.now(), '%Y-%m-%d')}.log")
-    ]
-)
+abbreviations = {
+    '__init__' : 'Init',
+    'farmer_setup': 'Setup',
+    'farmer_loop' : 'Loop',
+    'check_for_stuck' : 'CheckStuck',
+    'advanced_anti_stuck' : 'AntiStuck',
+    'select_legends' : 'Legends',
+    'get_highest_priority_object' : 'Priority',
+}
 
 logger = logging.getLogger("DBLegendsFarmer")
 logging.getLogger("discord").setLevel(logging.CRITICAL)
+
+class AbbreviationFilter(logging.Filter):
+    def filter(self, record):
+        record.abbrevFuncName = abbreviations.get(record.funcName, record.funcName)
+        return True
+
+logger.addFilter(AbbreviationFilter())
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(levelname)s * [%(abbrevFuncName)s] %(message)s",
+    handlers=[
+        logging.FileHandler(filename=f"{os.getcwd()}\\logs\\{datetime.datetime.strftime(datetime.datetime.now(), '%Y-%m-%d')}.log")
+    ]
+)
 
 class ConfigFuctions:
     
