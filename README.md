@@ -63,7 +63,7 @@
 <br>
 
 <p align="">
-  DBFarmer is an open source project and welcomes contributions from anyone who is interested. If you want to help improve the tool, you can fork this repository and make a pull request with your changes. You can also report any issues or suggestions on the issues tab.
+  TekkiColab is an open source project and welcomes contributions from anyone who is interested. If you want to help improve the tool, you can fork this repository and make a pull request with your changes. You can also report any issues or suggestions on the issues tab.
 </p>
 
 ----
@@ -72,7 +72,7 @@
 <br>
 
 <p align="">
-    Please use this program only for educational purposes.
+    Please use this program only for educational purposes and as a POC.
     <br><br>
     It is not meant to be used in any malicious way, and I decline any responsibility for what you do with it.
     <br><br>
