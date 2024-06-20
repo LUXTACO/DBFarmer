@@ -14,6 +14,12 @@
   DBFarmer is a tool that completes the story of Dragon Ball Legends autonomously with setting for human assistance and auto anti stuck measures.
 </p>
 
+<p align="center" >
+  <b> >>> JOIN THE DISCORD <<< </b>
+    <br>
+  https://discord.gg/PdeTUZ3M62
+</p>
+
 ----
 
 ### <p align="center">🧬 Installation 🧬</p>
