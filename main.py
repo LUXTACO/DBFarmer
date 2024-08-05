@@ -35,6 +35,7 @@ except:
     from discord.ui import Select, View
 
 setcolors("pastel_purple")
+CURRENT_VERSION = "1.1"
 
 abbreviations = {
     '__init__' : 'Init',
@@ -287,12 +288,13 @@ class IntelligentFunctions:
             stuck_thread = threading.Thread(target=self.advanced_anti_stuck)
             stuck_thread.start()
     
-    def fix_errors(self, action: str):
+    def fix_errors(self, action: str, **kwargs):
         #? [Init]
         if action == "init":
             self.fixer_enabled = True
             logger.info("Fixer enabled")
             normalprint("info", "[IntelligentFunctions]", "Fixer enabled")
+            
         #? [Fix-Images]
         elif action == "fix-images" and self.fixer_enabled:
             raise NotImplementedError("Will implement later lmao")
@@ -693,9 +695,10 @@ class FarmerFunctions:
 class Cosmetic:
     
     def title():
-        System.Title('DBFarmer ⏐ Made by: Takkeshi ⏐ Version: 1.0 ⏐ https://github.com/LUXTACO')
+        console_title = f'DBFarmer ⏐ Made by: Takkeshi ⏐ Version: {CURRENT_VERSION} ⏐ https://github.com/LUXTACO'
+        System.Title(console_title)
         
-        window = FarmerFunctions.get_window("DBFarmer ⏐ Made by: Takkeshi ⏐ Version: 1.0 ⏐ https://github.com/LUXTACO", 10)
+        window = FarmerFunctions.get_window(console_title, 10)
         window.maximize()
         
         image = """
