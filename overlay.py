@@ -139,18 +139,3 @@ class Overlay:
         
     def close_window(self) -> None:
         self.root.destroy()
-
-if __name__ == "__main__": #? Testing the Overlay Class [passed]
-    
-    import random
-    
-    def update():
-        return 500, {"loop": f"Loops {random.randint(1, 100)}", "crono": f"Current cronos {random.randint(1, 100)}", "stuck": f"Stuck: {random.randint(1, 100)}"}
-    
-    def close(ignore):
-        exit()
-    
-    def minimize(ignore):
-        print("Mini")
-    
-    Overlay(close, {"loop": "Getting lmao", "crono": "meta a bitch", "stuck": "Stuck: 2"}, 500, lambda: update()).run()
