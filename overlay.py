@@ -153,4 +153,4 @@ if __name__ == "__main__": #? Testing the Overlay Class [passed]
     def minimize(ignore):
         print("Mini")
     
-    Overlay(close, {"loop": "Getting lmao", "crono": "meta a nigger", "stuck": "Stuck: 2"}, 500, lambda: update()).run()
+    Overlay(close, {"loop": "Getting lmao", "crono": "meta a bitch", "stuck": "Stuck: 2"}, 500, lambda: update()).run()
